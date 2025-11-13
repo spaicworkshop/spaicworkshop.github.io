@@ -1,0 +1,4 @@
+*.psd
+*.sh
+*.py
+.DS_Store
