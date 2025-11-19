@@ -57,7 +57,7 @@ h3, h4, h5, h6 {
 /* Navbar Hacks */
 /* Current active */
 .navbar-nav > .active > a {
-    color: #0d6efd!important;
+    color: #91cdff!important;
     font-weight: bold;
 }
 .nav-link {
@@ -67,9 +67,24 @@ h3, h4, h5, h6 {
     color: #6c757d!important
 }
 
+.custom-navbar {
+    background-image: url('../../img/red.jpg');
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+        
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: 750 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+    font-size: 15pt;
+}
+
 /* On mouse over */
 .nav-item > a:hover {
-    color: #0d6efd!important;
+    color: #91cdff!important;
 }
 
 /*** Google Web Fonts - END ***/
